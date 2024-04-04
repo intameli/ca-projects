@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background: purple;
+  height: 100px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  line-height: 100px;
+  margin: 0;
+}
+
+article {
+  padding: 10px;
+  margin: 10px;
+  background: aqua;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+article {
+  flex: 1 200px;
+}
+article:nth-of-type(2) {
+  flex: 2;
+}
