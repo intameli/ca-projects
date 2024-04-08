@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  height: 100px;
+  width: 100px;
+  background-color: pink;
+  transform: translateX(-70%);
+  transition: 1s;
+}
+
+div:hover {
+  transform: translate(0%);
+  animation: two-colors 2s forwards;
+}
+
+@keyframes two-colors {
+  0% {
+    background: pink;
+  }
+  100% {
+    background: blue;
+  }
+}
