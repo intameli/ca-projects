@@ -1,6 +1,13 @@
-# from random import randint
 import mod
+from color50 import rgb, constants
+import argparse
 
-# x = [randint(0,10) for x in range(0,100)]
+parser = argparse.ArgumentParser()
+parser.add_argument('--name', type=int, required=True)
+args = parser.parse_args()
+print(args.name)
 
-mod.foo()
+# my_color = rgb(128, 0, 128)
+# print(my_color + "Hello, World!" + constants.RESET)
+
+# mod.foo()
