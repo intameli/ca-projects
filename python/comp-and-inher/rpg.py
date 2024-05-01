@@ -1,5 +1,11 @@
 class Inventory:
     def __init__(self, gold=0, items=[]):
+        """_summary_
+
+        Args:
+            gold (int, optional): _description_. Defaults to 0.
+            items (list, optional): _description_. Defaults to [].
+        """        
         self.gold = gold
         self.items = items
 
