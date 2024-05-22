@@ -1,4 +1,5 @@
 
+
 try:
     n = int(input('num: '))
     d = int(input('num: '))
